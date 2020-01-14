@@ -1,3 +1,3 @@
 # Cecil.link
 
-Static URL Shortener, Custom Links & Link Management.
+Static URL Shortener powered by [Cecil](https://cecil.app).
