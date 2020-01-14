@@ -1,7 +1,7 @@
 title: "Cecil.link"
 baseline: "Static URL shortener!"
 baseurl: https://cecil.local/
-description: "Static URL Shortener, Custom Links & Link Management."
+description: "Static URL Shortener powered by Cecil."
 output:
   formats:
     netlify_redirects:
