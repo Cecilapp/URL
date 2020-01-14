@@ -11,7 +11,7 @@ virtualpages:
   _redirects:
     output: netlify_redirects
   /:
-    redirect: http://cecil.link
+    redirect: https://github.com/Cecilapp/cecil.link
   al:
     redirect: https://arnaudligny.fr
   ggl:
