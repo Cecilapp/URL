@@ -1,0 +1,18 @@
+title: "Cecil.link"
+baseline: "Static URL shortener!"
+baseurl: https://cecil.local/
+description: "Static URL Shortener, Custom Links & Link Management."
+output:
+  formats:
+    netlify_redirects:
+      mediatype: 'text/plain'
+      extension: ''
+virtualpages:
+  _redirects:
+    output: netlify_redirects
+  /:
+    redirect: http://cecil.link
+  al:
+    redirect: https://arnaudligny.fr
+  ggl:
+    redirect: https://www.google.com/search?q=cecil+static
