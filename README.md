@@ -8,7 +8,7 @@ Static URL Shortener powered by [Cecil](https://cecil.app).
 
 2. Install [Cecil](https://cecil.app/download/)
 
-3. Add URL at the end of  `config.yml`:
+3. Add URL at the end of [`config.yml`](/config.yml):
    ```
    slug:
      redirect: url
