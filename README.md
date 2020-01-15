@@ -10,7 +10,7 @@ Static URL Shortener powered by [Cecil](https://cecil.app).
 
 3. Add URL at the end of  `config.yml`:
    ```
-   shorten:
+   slug:
      redirect: url
    ```
    
@@ -18,3 +18,4 @@ Static URL Shortener powered by [Cecil](https://cecil.app).
 
 5. Deploy HTML from `_site` on your Web server
 
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Cecilapp/cecil.link)
