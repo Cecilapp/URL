@@ -1,4 +1,0 @@
----
-redirect: https://arnaudligny.fr
-
----
