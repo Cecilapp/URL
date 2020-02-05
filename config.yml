@@ -20,8 +20,10 @@ virtualpages:
     output: netlify_redirects
   - path: .htaccess
     output: apache_rewrite
+# root domain redirection
   - path: ''
     redirect: https://github.com/Cecilapp/cecil.link
+# add URL here
   - path: al
     redirect: https://arnaudligny.fr
   - path: ggl
