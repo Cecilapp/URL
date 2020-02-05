@@ -8,3 +8,5 @@ fields:
   label: redirect
   config:
     required: true
+pages:
+- content/cecil.md
