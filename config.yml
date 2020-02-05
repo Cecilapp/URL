@@ -2,6 +2,9 @@ title: "cecil.link"
 baseline: "Static URL shortener!"
 baseurl: https://cecil.local/
 description: "Static URL Shortener powered by Cecil."
+defaultpages:
+  sitemap:
+    published: false
 output:
   formats:
     netlify_redirects:
@@ -12,17 +15,16 @@ output:
       extension: ''
   pagetypeformats:
     homepage: html
-defaultpages:
-  sitemap:
-    published: false
 virtualpages:
-  - path: _redirects
-    output: netlify_redirects
-  - path: .htaccess
-    output: apache_rewrite
 # root domain redirection
   - path: ''
     redirect: https://github.com/Cecilapp/cecil.link
+# Netlify _redirects file
+  - path: _redirects
+    output: netlify_redirects
+# Apache Rewrite file
+  - path: .htaccess
+    output: apache_rewrite
 # add URL here
   - path: al
     redirect: https://arnaudligny.fr
