@@ -1,7 +1,10 @@
 ---
 label: url
 hide_body: true
+display_field: redirect
 fields:
 - type: text
   name: redirect
   label: redirect
+  config:
+    required: true
