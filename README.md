@@ -15,6 +15,7 @@ Static URL Shortener powered by [Cecil](https://cecil.app).
    redirect: https://www.google.com/search?q=cecil+static
    ---
    ```
+   https://cecil.link/ggl
 4. Build the static website: `php cecil.phar build`
 5. Deploy `_site` directory on your Web server
 
