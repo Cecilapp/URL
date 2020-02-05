@@ -1,5 +1,5 @@
 ---
 slug: ali
-redirect: https://arnaudligny.fr
+redirect: https://arnaudligny.fr/a-propos/
 
 ---
