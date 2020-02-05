@@ -5,6 +5,13 @@ description: "Static URL Shortener powered by Cecil."
 defaultpages:
   sitemap:
     published: false
+virtualpages:
+# Netlify _redirects file
+  - path: _redirects
+    output: netlify_redirects
+# Apache Rewrite file
+  - path: .htaccess
+    output: apache_rewrite
 output:
   formats:
     netlify_redirects:
@@ -15,18 +22,3 @@ output:
       extension: ''
   pagetypeformats:
     homepage: html
-virtualpages:
-# root domain redirection
-  - path: ''
-    redirect: https://github.com/Cecilapp/cecil.link
-# Netlify _redirects file
-  - path: _redirects
-    output: netlify_redirects
-# Apache Rewrite file
-  - path: .htaccess
-    output: apache_rewrite
-# add URL here
-  - path: al
-    redirect: https://arnaudligny.fr
-  - path: ggl
-    redirect: https://www.google.com/search?q=cecil+static
