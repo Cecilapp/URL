@@ -3,11 +3,6 @@ label: url
 hide_body: true
 display_field: redirect
 fields:
-- name: slug
-  type: text
-  config:
-    required: true
-  label: Slug
 - type: text
   name: redirect
   label: URL
