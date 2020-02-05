@@ -1,0 +1,7 @@
+---
+label: url
+hide_body: true
+fields:
+- type: text
+  name: redirect
+  label: redirect
