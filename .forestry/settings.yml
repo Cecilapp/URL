@@ -9,7 +9,6 @@ sections:
   label: URL
   create: documents
   match: "*"
-  exclude: index.md
   new_doc_ext: md
 - type: document
   path: config.yml
