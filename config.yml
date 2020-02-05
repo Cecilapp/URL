@@ -7,12 +7,22 @@ output:
     netlify_redirects:
       mediatype: 'text/plain'
       extension: ''
+    apache_rewrite:
+      mediatype: 'text/plain'
+      extension: ''
+  pagetypeformats:
+    homepage: html
+defaultpages:
+  sitemap:
+    published: false
 virtualpages:
-  _redirects:
+  - path: _redirects
     output: netlify_redirects
-  /:
+  - path: .htaccess
+    output: apache_rewrite
+  - path: ''
     redirect: https://github.com/Cecilapp/cecil.link
-  al:
+  - path: al
     redirect: https://arnaudligny.fr
-  ggl:
+  - path: ggl
     redirect: https://www.google.com/search?q=cecil+static

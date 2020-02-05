@@ -7,18 +7,14 @@ Static URL Shortener powered by [Cecil](https://cecil.app).
 ### Manually
 
 1. Clone the repository
-
-2. Install [Cecil](https://cecil.app/download/)
-
-3. Add one or more URL at the end of [`config.yml`](/config.yml)  
-   ie:  
+2. Download [Cecil](https://cecil.app/download/)
+3. Add one or more URL at the end of [`config.yml`](/config.yml)
+   ie:
    ```yaml
-   ggl:
+   - path: ggl
      redirect: https://www.google.com/search?q=cecil+static
    ```
-   
 4. Build the static website: `php cecil.phar build`
-
 5. Deploy `_site` directory on your Web server
 
 ### With Netlify
