@@ -8,11 +8,12 @@ Static URL Shortener powered by [Cecil](https://cecil.app).
 
 1. Clone the repository
 2. Download [Cecil](https://cecil.app/download/)
-3. Add one or more URL at the end of [`config.yml`](/config.yml)
-   ie:
+3. Add file in `content/` directory  
+   ie: `ggl.md`  
    ```yaml
-   - path: ggl
-     redirect: https://www.google.com/search?q=cecil+static
+   ---
+   redirect: https://www.google.com/search?q=cecil+static
+   ---
    ```
 4. Build the static website: `php cecil.phar build`
 5. Deploy `_site` directory on your Web server
