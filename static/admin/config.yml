@@ -17,6 +17,8 @@ collections:
     description: >
       URL collection.
     folder: "content"
+    editor:
+      preview: false
     create: true
     slug: "{{slug}}"
     preview_path: "{{slug}}"
