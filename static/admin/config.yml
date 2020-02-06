@@ -1,0 +1,24 @@
+backend:
+  name: git-gateway
+  branch: master
+publish_mode: editorial_workflow
+media_folder: "static/images"
+public_folder: "/images"
+logo_url: https://the-butler.cecil.app/admin/cecil-logo-netlify.png
+show_preview_links: true
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "-"
+collections:
+  - label: "URL"
+    label_singular: "URL"
+    name: "url"
+    description: >
+      URL collection.
+    folder: "content"
+    create: true
+    slug: "{{slug}}"
+    preview_path: "{{slug}}"
+    fields:
+      - {label: "URL", name: "redirect", widget: "string", required: true}
