@@ -8,6 +8,11 @@ fields:
   label: URL
   config:
     required: true
+- name: slug
+  type: text
+  config:
+    required: false
+  label: Slug
 pages:
 - content/ali.md
 - content/cecil.md
