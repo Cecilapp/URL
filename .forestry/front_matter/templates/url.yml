@@ -13,7 +13,3 @@ fields:
   config:
     required: false
   label: Slug
-pages:
-- content/ali.md
-- content/cecil.md
-- content/index.md
