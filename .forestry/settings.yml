@@ -8,7 +8,7 @@ sections:
   path: content
   label: URL
   create: documents
-  match: "*"
+  match: "*.md"
   new_doc_ext: md
   templates:
   - url
