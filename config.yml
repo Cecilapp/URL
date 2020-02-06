@@ -6,6 +6,11 @@ defaultpages:
   sitemap:
     published: false
 virtualpages:
+# Netlify CMS
+- path: admin
+    layout: admin/index
+    output: html
+    title: "Content Manager (Netlify CMS)"
 # Netlify _redirects file
   - path: _redirects
     output: netlify_redirects
