@@ -20,7 +20,9 @@ collections:
     editor:
       preview: false
     create: true
+    identifier_filed: slug
     slug: "{{slug}}"
     preview_path: "{{slug}}"
     fields:
+      - {label: "Slug", name: "slug", widget: "string", required: true}
       - {label: "URL", name: "redirect", widget: "string", required: true}
