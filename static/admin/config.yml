@@ -14,13 +14,13 @@ collections:
   - label: "URL"
     label_singular: "URL"
     name: "url"
+    identifier_field: "slug"
     description: >
       URL collection.
     folder: "content"
     editor:
       preview: false
     create: true
-    identifier_filed: slug
     slug: "{{slug}}"
     preview_path: "{{slug}}"
     fields:
