@@ -26,4 +26,4 @@ output:
       mediatype: 'text/plain'
       extension: ''
   pagetypeformats:
-    homepage: html
+    homepage: [html]
