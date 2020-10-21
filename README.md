@@ -1,6 +1,6 @@
 # cecil.link
 
-_cecil.link_ is an URL manager (and shortener) powered by [Cecil](https://cecil.app), a static site generator.
+> _cecil.link_ is an URL manager (and shortener) powered by [Cecil](https://cecil.app) (a static site generator).
 
 ## How does it work?
 
@@ -9,8 +9,9 @@ _cecil.link_ is files based, so it nead a file to handle the redirection from th
 So you just have to create this file then _cecil.link_ does the rest of the job.
 
 _cecil.link_ creates:
+
 1. an HTML file for each URL including the [HTML redirect](https://developer.mozilla.org/docs/Web/HTTP/Redirections)
-2. a [Netlify Redirects](https://docs.netlify.com/routing/redirects/#syntax-for-the-redirects-file) file
+2. a [Netlify Redirects](https://docs.netlify.com/routing/redirects/) file
 3. an Apache `.htaccess` file
 
 ## Usage
