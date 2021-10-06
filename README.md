@@ -38,6 +38,7 @@ Demo: https://cecil.link/ggl
 
 1. Clone this repository
 2. Download [Cecil](https://cecil.app/download/)
+3. Install components: `composer install`
 4. Build the website: `php cecil.phar build`
 5. Deploy the `_site` directory on your Web server
 
