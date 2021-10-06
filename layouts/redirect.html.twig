@@ -7,10 +7,10 @@
     <meta name="robots" content="noindex" />
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta http-equiv="refresh" content="0;url={{ url(page.redirect, {canonical:true}) }}" />
-    <!-- Forestry.io Instant Preview -->
-{% if page.forestry_instant_preview_id is defined %}
-	  <meta property="forestry_instant_preview_id" content="{{ page.forestry_instant_preview_id }}">
-{% endif %}
+    {%- if page.forestry_instant_preview_id is defined ~%}
+	  <!-- Forestry.io Instant Preview -->
+    <meta property="forestry_instant_preview_id" content="{{ page.forestry_instant_preview_id }}">
+    {%- endif ~%}
     <script>
       window.location.assign("{{ url(page.redirect, {canonical:true}) }}");
     </script>
@@ -18,7 +18,7 @@
   <body>
     <h1>Redirecting&hellip;</h1>
     <a href="{{ url(page.redirect) }}">Click here if you are not redirected.</a>
-{% if site.googleanalytics is defined %}
+    {%- if site.googleanalytics is defined ~%}
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.googleanalytics }}"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -26,6 +26,6 @@
       gtag('js', new Date());
       gtag('config', '{{ site.googleanalytics }}');
     </script>
-{% endif %}
+    {%- endif ~%}
   </body>
 </html>
