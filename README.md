@@ -25,6 +25,7 @@ To create a new URL just create a Markdown file in the `content/` directory, wit
 File name: `ggl.md`
 
 File content:
+
 ```yaml
 ---
 redirect: https://www.google.com/search?q=cecil+static
@@ -43,3 +44,9 @@ Demo: https://cecil.link/ggl
 #### With Netlify
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Cecilapp/cecil.link&stack=cms)
+
+## License
+
+_cecil.link_ is a free software distributed under the terms of the MIT license.
+
+© [Arnaud Ligny](https://arnaudligny.fr)  
