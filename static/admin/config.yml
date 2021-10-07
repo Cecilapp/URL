@@ -15,7 +15,7 @@ collections:
   - label: "URL"
     label_singular: "URL"
     name: "url"
-    identifier_field: "slug"
+    identifier_field: "redirect"
     description: >
       URL collection.
     folder: "content"
