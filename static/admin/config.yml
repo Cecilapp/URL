@@ -25,5 +25,5 @@ collections:
     slug: "{{slug}}"
     preview_path: "{{slug}}"
     fields:
-      - {label: "Slug", name: "slug", widget: "string", required: false}
+      - {label: "Slug", name: "slug", widget: "string", required: true}
       - {label: "URL", name: "redirect", widget: "string", required: true}
