@@ -1,7 +1,7 @@
-title: "cecil.link"
-baseline: "Static URL shortener!"
+title: "URL"
+baseline: "Static URL manager and shortener"
 baseurl: https://cecil.local/
-description: "Static URL Shortener powered by Cecil."
+description: "Static URL manager and shortener, powered by Cecil."
 theme:
   - netlify
   - netlify-cms
