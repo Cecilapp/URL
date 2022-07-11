@@ -1,12 +1,12 @@
-**_URL_** is an URL manager (and shortener) powered by [Cecil](https://cecil.app) (a static site generator).
+**_Cecil/URL_** is an URL manager (and shortener) powered by [Cecil](https://cecil.app) (a static site generator).
 
 ## How does it work?
 
-_URL_ is files based, so it nead a file to handle the redirection from the `slug` to the target URL.
+_Cecil/URL_ is files based, so it nead a file to handle the redirection from the `slug` to the target URL.
 
-So you just have to create this file then _URL_ does the rest of the job.
+So you just have to create this file then _Cecil/URL_ does the rest of the job.
 
-_URL_ creates:
+_Cecil/URL_ creates:
 
 1. an HTML file for each URL including the [HTML redirect](https://developer.mozilla.org/docs/Web/HTTP/Redirections)
 2. a [Netlify Redirects](https://docs.netlify.com/routing/redirects/) file
