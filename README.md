@@ -30,7 +30,7 @@ redirect: https://www.google.com/search?q=cecil+static
 ---
 ```
 
-Demo: <https://url.cecil.app/ggl>
+Demo: <https://url-demo.cecil.app/ggl>
 
 ### Build and deploy
 
