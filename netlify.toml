@@ -3,7 +3,6 @@
   command = "bash scripts/netlify-build.sh"
 
 [build.environment]
-  #PHP_VERSION = "7.4"
   CECIL_CACHE_DIR = "/opt/build/cache/"
 
 [context.production.environment]

@@ -4,7 +4,6 @@
   Redirect 301 "{{ url(page, {canonical: false}) }}" "{{ url(page.redirect, {canonical: false}) }}"
 {% endfor %}
 </IfModule>
-
 # Apache's RewriteRule if mod_rewrite is available
 <IfModule !mod_alias.c>
   <IfModule mod_rewrite.c>

@@ -1,4 +1,3 @@
 ---
 redirect: https://cecil.app
-
 ---
