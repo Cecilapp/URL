@@ -7,10 +7,6 @@
     <meta name="robots" content="noindex" />
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta http-equiv="refresh" content="0;url={{ url(page.redirect, {canonical: true}) }}" />
-    {%- if page.forestry_instant_preview_id is defined ~%}
-	  <!-- Forestry.io Instant Preview -->
-    <meta property="forestry_instant_preview_id" content="{{ page.forestry_instant_preview_id }}">
-    {%- endif ~%}
     <script>
       window.location.assign("{{ url(page.redirect, {canonical: true}) }}");
     </script>
