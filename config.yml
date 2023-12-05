@@ -8,6 +8,10 @@ theme:
 defaultpages:
   sitemap:
     published: false
+  xsl/atom:
+    published: false
+  xsl/rss:
+    published: false
 virtualpages:
   # Apache Rewrite file
   - path: .htaccess
