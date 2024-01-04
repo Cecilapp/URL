@@ -33,11 +33,10 @@ Demo: <https://url-demo.cecil.app/ggl>
 
 ### Build and deploy
 
-1. Clone this repository
+1. Clone this repository and install components with `composer install`, or run `composer create-project cecil/url myproject`
 2. Download [Cecil](https://cecil.app/download/)
-3. Install components: `composer install`
-4. Build the website: `php cecil.phar build`
-5. Deploy the `_site` directory on your Web server
+3. Build the website: `php cecil.phar build`
+4. Deploy the `_site` directory on your Web server
 
 #### With Netlify
 
