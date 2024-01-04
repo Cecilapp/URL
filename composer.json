@@ -1,7 +1,19 @@
 {
+  "name": "cecil/url",
+  "description": "URL manager and shortener, powered by Cecil.",
+  "license": "MIT",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Arnaud Ligny",
+      "email": "arnaud@ligny.fr",
+      "homepage": "https://arnaudligny.fr",
+      "role": "Developer"
+    }
+  ],
   "require": {
-    "cecil/theme-netlify": "^1.6",
-    "cecil/theme-netlifycms": "^1.7"
+    "cecil/theme-netlify": "^2.0",
+    "cecil/theme-netlifycms": "^2.0"
   },
   "config": {
     "allow-plugins": {
