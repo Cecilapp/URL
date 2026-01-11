@@ -4,18 +4,20 @@ baseurl: https://cecil.local/
 description: "Static URL manager and shortener, powered by Cecil."
 theme:
   - netlify
-  - netlify-cms
-defaultpages:
-  sitemap:
-    published: false
-  xsl/atom:
-    published: false
-  xsl/rss:
-    published: false
-virtualpages:
-  # Apache Rewrite file
-  - path: .htaccess
-    output: apache_rewrite
+pages:
+  default:
+    sitemap:
+      published: false
+    xsl/atom:
+      published: false
+    xsl/rss:
+      published: false
+    xsl/sitemap:
+      published: false
+  virtual:
+    # Apache Rewrite file
+    - path: .htaccess
+      output: apache_rewrite
 output:
   formats:
     apache_rewrite:
