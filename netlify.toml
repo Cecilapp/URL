@@ -2,8 +2,8 @@
   publish = "_site"
   command = "bash scripts/netlify-build.sh"
 
-[build.environment]
-  CECIL_CACHE_DIR = "/opt/build/cache/"
+#[build.environment]
+#  CECIL_CACHE_DIR = "/opt/build/cache/"
 
 [context.production.environment]
   CECIL_ENV = "production"
